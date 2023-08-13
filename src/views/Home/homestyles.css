@@ -30,6 +30,7 @@ body {
 
 .navigation {
     background-color: hsl(223, 90%, 4%);
+   
 }
 
 .nav-links {
@@ -49,7 +50,7 @@ body {
     text-decoration: none;
     border-radius: 18px;
     padding: 6px 24px;
-    font-size: 5rem;
+    font-size: 4rem;
 }
 
 .nav-link-active {
@@ -59,6 +60,18 @@ body {
 
 }
 
+@media only screen and (max-width:959px) {
+    .nav-link-active,
+    .nav-link {
+        font-size: 3rem;
+        margin-top: 1rem;
+        width: 100%;
+        text-align: center;
+    }
+
+
+
+}
 @media only screen and (max-width:820px) {
     .navigation {
         border-bottom: 1px solid white;
@@ -73,12 +86,11 @@ body {
     .nav-links {
         display: flex;
         padding: 5%;
-
     }
 
     .nav-link-active,
     .nav-link {
-        font-size: 3rem;
+        font-size: 2rem;
         margin-top: 1rem;
         width: 100%;
         text-align: center;
@@ -89,11 +101,7 @@ body {
 
 
 @media only screen and (max-width:728px) {
-    .navigation {
-        border-bottom: 1px solid white;
-        justify-content: center;
-        display: flex;
-    }
+    
 
     .nav-links {
         display: block;

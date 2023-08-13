@@ -1,4 +1,10 @@
-div{
-    background-color: black;
-    color: white;
+
+.title-resources{
+    width: 100%;
+    
+    text-align: center;
+    background-color:whitesmoke;
+    color: black;
+    padding-top: 20rem;
 }
+

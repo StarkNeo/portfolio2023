@@ -16,7 +16,7 @@ export function Resources() {
     console.log(list)
     return (
         <>
-        {list}
+        <h1 className="title-resources">Not Available</h1>
         </>
 
     )
