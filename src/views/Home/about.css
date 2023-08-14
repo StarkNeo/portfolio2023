@@ -1,125 +1,186 @@
-body{
+body {
   overflow-x: hidden;
-  
-}
-#body-about{
-    background-color: black;
-    background: rgb(2, 0, 36);
-    width: 100%;
-    padding-top: 1rem;
-}
-h1, h2, p{
-    
-    padding-left: 30%;
-    padding-right: 30%;
-    text-align: center;
-    color:whitesmoke;
-    text-align: justify;
+
 }
 
-p{
+#body-about {
+  background-color: black;
+  background: rgb(2, 0, 36);
+  width: 100%;
+  padding-top: 1rem;
+}
+
+#h1-about {
+  margin-top: 5rem;
+  padding-left: 30%;
+  padding-right: 30%;
+  text-align: center;
+  color: whitesmoke;
+
+}
+
+h2,
+p {
+  padding-left: 30%;
+  padding-right: 30%;
+  text-align: center;
+  color: whitesmoke;
+  text-align: justify;
+}
+
+p {
   font-size: 1.5rem;
 }
+
 #carrusel {
-    margin-top: 5rem;
-    background-color: hsl(223, 90%, 4%);
-    width: 100%;
-    overflow: hidden;
-    height: auto;
-    display: flex;
-    justify-content: space-around;
-    align-content: center;
+  margin-top: 5rem;
+  background-color: hsl(223, 90%, 4%);
+  width: 100%;
+  overflow: hidden;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+}
+
+.skill-name {
+  font-size: 20px;
+  color: yellow;
+  text-align: center;
+
+}
+
+.element-carrusel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: hsl(223, 90%, 4%);
+}
+
+.element-carrusel h1 {
+  text-align: center;
+}
+
+.innerCarrusel {
+  width: 50%;
+  height: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  animation-name: innerSlide;
+  animation-duration: 15s;
+  animation-delay: 10s;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-timing-function: ease;
+  overflow: hidden;
+
+}
+
+#trending {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 0px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: relative;
+  color: whitesmoke;
+  list-style: none;
+  animation-name: slideshow;
+  animation-duration: 18s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-timing-function: ease;
+  overflow: hidden;
+
+
+}
+
+@keyframes slideshow {
+  0% {
+    background-color: blue;
   }
-  
-  .skill-name{
-    font-size: 20px;
-    color: yellow;
-    text-align: center;
-    
+
+  10% {
+    background-color: bisque;
   }
-  .element-carrusel{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: hsl(223, 90%, 4%);
+
+  20% {
+    background-color: blueviolet
   }
-  .element-carrusel h1{
-    text-align: center;
+
+  30% {
+    background-color: brown
   }
-  
-  .innerCarrusel{
-    width: 50%;
-    height: 50%;
-    
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    animation-name: innerSlide;
-    animation-duration:15s;
-    animation-delay: 10s;
-    animation-iteration-count: infinite;
-    animation-direction:normal;
-    animation-timing-function:ease;
-    overflow: hidden;
-    
+
+  40% {
+    background-color: burlywood
   }
-  #trending {
-    
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-left: 0px;
-    width: 300px;
-    height: 300px; 
-    border-radius: 50%; 
-    position: relative;
-    color: whitesmoke;
-    list-style: none;
-    animation-name: slideshow;
-    animation-duration: 18s;
-    animation-delay: 2s;
-    animation-iteration-count: infinite;
-    animation-direction:normal;
-    animation-timing-function:ease;
-    overflow: hidden;
-    
+
+  50% {
+    background-color: cadetblue
+  }
+
+  60% {
+    background-color: chartreuse;
+  }
+
+  70% {
+    background-color: chocolate
+  }
+
+  80% {
+    background-color: cornflowerblue
+  }
+
+  90% {
+    background-color: tomato
+  }
+
+  100% {
+    background-color: black
+  }
+}
+
+
+
+.skill-imagen {
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+
+}
+
+
+
+@media only screen and (max-width:820px) {
+  aside {
+    margin-top: 9rem;
 
   }
-  
-  @keyframes slideshow {
-    0% {background-color:blue; }
-    10%{background-color:bisque;}
-    20%{background-color:blueviolet}
-    30%{background-color:brown}
-    40%{background-color:burlywood}
-    50%{background-color:cadetblue}
-    60%{background-color: chartreuse;}
-    70%{background-color:chocolate}
-    80%{background-color:cornflowerblue}
-    90%{background-color:tomato}
-    100%{background-color:black}
+
+  #h1-about {
+    margin-top: 15rem;
+
   }
-  
-  
-    
-  .skill-imagen {
-    width: 100%;
-    height: 100%;
-    background-color: transparent;
-    
+
+  h2,
+  p {
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 1.5rem;
   }
-  
-  @media only screen and (max-width:820px) {
-    h1, h2, p{
-      padding-left: 10%;
-      padding-right: 10%;
-      text-align: center;
-      color:whitesmoke;
-      font-size: 1.5rem;
-  }
+
   #carrusel {
-    margin-top: 5rem;
+    margin-top: 3rem;
     background-color: hsl(223, 90%, 4%);
     width: 100%;
     overflow: hidden;
@@ -136,8 +197,8 @@ p{
     align-items: center;
     padding-left: 0px;
     width: 100px;
-    height: 100px; 
-    border-radius: 50%; 
+    height: 100px;
+    border-radius: 50%;
     position: relative;
     color: whitesmoke;
     list-style: none;
@@ -145,59 +206,52 @@ p{
     animation-duration: 18s;
     animation-delay: 2s;
     animation-iteration-count: infinite;
-    animation-direction:normal;
-    animation-timing-function:ease;
+    animation-direction: normal;
+    animation-timing-function: ease;
     overflow: hidden;
-    
+
 
   }
-  
-  }
-  
-  
 
-  @media only screen and (max-width:728px) {
-    h1, h2, p{
-      padding-left: 10%;
-      padding-right: 10%;
-      text-align: center;
-      color:whitesmoke;
-      font-size: 1rem;
+
+
+}
+
+
+
+@media only screen and (max-width:728px) {
+
+  #h1-about {
+    margin-top: 15rem;
   }
+
+  h2,
+  p {
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 1rem;
+  }
+
   #carrusel {
-    margin-top: 5rem;
     background-color: hsl(223, 90%, 4%);
     width: 100%;
-    overflow: hidden;
     height: auto;
     display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-content: center;
-  }
-
-  #trending {
-    display: flex;
-    justify-content: center;
     align-items: center;
-    padding-left: 0px;
-    width: 100px;
-    height: 100px; 
-    border-radius: 50%; 
-    position: relative;
-    color: whitesmoke;
-    list-style: none;
-    animation-name: slideshow;
-    animation-duration: 18s;
-    animation-delay: 2s;
-    animation-iteration-count: infinite;
-    animation-direction:normal;
-    animation-timing-function:ease;
-    overflow: hidden;
-    
+  }
 
+
+  
+
+}
+
+@media only screen and (max-width:488px) {
+  #h1-about {
+    font-size: 1rem;
   }
-  
+  #carrusel{
+    flex-direction: column;
   }
-  
-  
+}

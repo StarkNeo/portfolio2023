@@ -105,14 +105,14 @@ body {
 
     .nav-links {
         display: block;
-        padding: 5%;
-
+        padding: 0;
+        
     }
 
     .nav-link-active,
     .nav-link {
         font-size: 1.5rem;
-        margin-top: 1rem;
+        margin-top: 0.5rem;
         width: 100%;
         text-align: center;
     }

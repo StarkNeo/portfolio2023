@@ -46,7 +46,7 @@ export const About = () => {
             <aside>
                 <Contact />
             </aside>
-            <h1>
+            <h1 id="h1-about">
                 Accountant and Software Developer
             </h1>
             <h2>A passionate of Computer Sciences and an experienced Accountant.</h2>
