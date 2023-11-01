@@ -9,7 +9,7 @@ function Navigation() {
     useEffect(() => {
         setSectionTypes(ROUTES);
     }, [])
-    sectionTypes.map(element=>console.log(element))
+    
     return (
         <>
         <nav className="navigation">

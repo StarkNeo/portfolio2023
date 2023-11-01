@@ -8,6 +8,10 @@ export const ROUTES = [
         id: 2,
         type: "Projects"
     },
+    {
+        id:3,
+        type:"About"
+    }
    
     
     

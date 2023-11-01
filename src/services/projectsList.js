@@ -9,7 +9,7 @@ export const projectList = [
         description: "Responsive website that displays embedded podcasts from Spotify and some information about Tech and programming.",
         purpose:"This project was created as part of a full stack web developer course ",
         year: 2021,
-        url: 'hhtp',
+        url: 'https://mypodcastproject.netlify.app/',
 
     },
     {
@@ -30,7 +30,7 @@ export const projectList = [
         description:"This program is a calculator of the social security costs that employers incurs when they hire personal in Mexico",
         purpose: "This project was created as part of my job and professional field needs",
         year: 2019,
-        url: 'hhtp',
+        url: 'https://github.com/StarkNeo/costo-patronal',
     },
     {
         id: 4,
@@ -40,7 +40,7 @@ export const projectList = [
         description:"This program is a calculator of the withholding ISR(Income Tax) in case of a free contractor(individuals) is hired by a Company.",
         purpose: "This project was created as part of my job and professional field needs", 
         year: 2019,
-        url: 'hhtp',
+        url: 'https://github.com/StarkNeo/asimilados',
     },
     {
         id: 5,
@@ -50,7 +50,7 @@ export const projectList = [
         description:"This is a web application that calculate gains and loses in case of fixed assets dispositions(sell or get rid)",
         purpose: "This project was created as part of my job and professional field needs",
         year: 2023,
-        url: 'hhtp',
+        url: 'https://github.com/StarkNeo/fixedassetscalculator',
     },
     
     {
@@ -61,8 +61,18 @@ export const projectList = [
         description:"This application creates a list of items by category and totalize each category, also retrieve you the total amount of your items's list.",
         purpose:"This project was developed for my own personal use, this application helps me to handle the shopping list when I go to the grocery store",
         year:2023,
-        url: 'hhtp',
+        url: 'https://github.com/StarkNeo/superapp2023',
 
+    },
+    {
+        id:7,
+        name: 'MORTGAGE CALCULATOR',
+        image_path: '',
+        skill_name:"Python",
+        description:"Mortgage calculator displays a table loan amortization",
+        purpose:"For personal finance uses",
+        year:2023,
+        url: 'https://github.com/StarkNeo/superapp2023',
     }
 
 

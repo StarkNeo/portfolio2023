@@ -4,10 +4,9 @@ body {
 }
 
 #body-about {
-  background-color: black;
-  background: rgb(2, 0, 36);
   width: 100%;
   padding-top: 1rem;
+  
 }
 
 #h1-about {
@@ -15,8 +14,7 @@ body {
   padding-left: 30%;
   padding-right: 30%;
   text-align: center;
-  color: whitesmoke;
-
+  
 }
 h1,
 h2,
@@ -24,7 +22,6 @@ p {
   padding-left: 30%;
   padding-right: 30%;
   text-align: center;
-  color: whitesmoke;
   text-align: justify;
 }
 
@@ -41,6 +38,7 @@ p {
   display: flex;
   justify-content: space-around;
   align-content: center;
+  color: bisque;
 }
 
 .skill-name {

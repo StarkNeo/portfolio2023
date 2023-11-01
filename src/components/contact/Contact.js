@@ -11,8 +11,8 @@ export function Contact() {
     let phone="https://api.whatsapp.com/send?phone=15128719848";
     return (
         <>
-            
-            <form action="mailto:jesushdzusa@gmail.com" method="get" encType="text/plain">
+                
+            <form action="mailto:jesushdzusa@gmail.com" method="post" encType="text/plain">
             <legend>Contact</legend>
             <fieldset id="form-links">
                     <Link target="_blank"
