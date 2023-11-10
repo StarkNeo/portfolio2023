@@ -72,7 +72,17 @@ export const projectList = [
         description:"Mortgage calculator displays a table loan amortization",
         purpose:"For personal finance uses",
         year:2023,
-        url: 'https://github.com/StarkNeo/superapp2023',
+        url: 'https://github.com/StarkNeo/MortgageCalculator',
+    },
+    {
+        id:8,
+        name: 'REDDIT APP',
+        image_path: '',
+        skill_name:"React JS, Redux, API",
+        description:"It is a simulation of the Reddit web that grab data from a public Reddit API",
+        purpose:"Codecademy Project",
+        year:2023,
+        url: 'https://github.com/StarkNeo/myredditapp',
     }
 
 

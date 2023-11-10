@@ -31,6 +31,7 @@ import powerq from './powerquery.jpg';
 import tableau from './tableau.jpg';
 import react from './REACT.png';
 
+
 export const arrayImages = [
         asimilados,
         costopat2,

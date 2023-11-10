@@ -4,17 +4,16 @@
     padding-left: 10%;
     margin: auto;
     justify-items: center;
-    background-color: black;    
     /*grid-template-columns: 50% 50%;
     grid-template-rows: 35%;*/
 
 }
-
+/*
 .project-details{
     color: white;
     
 }
-
+*/
 
 
 .projects-list {
@@ -43,8 +42,13 @@
     display: flex;
     width: 100%;
     text-decoration: none;
+    color: black;
 }
 
+.link-style:hover{
+    color: blue;
+    font-weight: bold;
+}
 
 .lang-icons {
     width: 50%;
@@ -82,8 +86,16 @@ figcaption p {
     text-align: justify;
 
 }
-
-
+.summary-project{
+    width: fit-content;
+}
+.summary-project:hover{
+        border: 2px solid deepskyblue;
+        color: deepskyblue;
+        background-color: black;
+        border-radius: 10px;
+    
+}
 figure img {
 
     transition: width 0.5s linear 0.3ms,

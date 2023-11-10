@@ -6,16 +6,68 @@ body {
 #body-about {
   width: 100%;
   padding-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  border: 1px solid hsl(223, 90%, 4%, 0.4);
+  padding: 1rem;
+}
+
+#div-left,
+#div-center,
+#div-right {
+  width: 33%;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+
+}
+
+.summary-head {
+  text-align: center;
+  cursor: pointer;
+}
+
+.summary-head:hover {
+  border: 2px solid deepskyblue;
+  color: deepskyblue;
+  background-color: black;
+  border-radius: 10px;
+}
+
+.summary-title {
+  list-style-type: "››› ";
   
 }
 
-#h1-about {
-  margin-top: 5rem;
-  padding-left: 30%;
-  padding-right: 30%;
-  text-align: center;
-  
+.summary-title:hover {
+
+  border: 2px solid deepskyblue;
+  color: deepskyblue;
+  background-color: black;
+  border-radius: 10px;
 }
+.summary-subcat:hover{
+  border: 2px solid deepskyblue;
+  color: deepskyblue;
+  background-color: black;
+  border-radius: 10px;
+}
+#h1-about {
+  text-align: justify;
+
+}
+
+summary {
+  cursor: pointer;
+  margin-top: 0.5rem;
+  font-weight: bold;
+}
+
+.course-path{
+  width: 3rem;
+  height: 3rem;
+}
+/*
 h1,
 h2,
 p {
@@ -23,10 +75,11 @@ p {
   padding-right: 30%;
   text-align: center;
   text-align: justify;
-}
+}*/
 
 p {
-  font-size: 1.5rem;
+  font-size: 1rem;
+  text-align: justify;
 }
 
 #carrusel {
@@ -241,7 +294,7 @@ p {
   }
 
 
-  
+
 
 }
 
@@ -249,7 +302,8 @@ p {
   #h1-about {
     font-size: 1rem;
   }
-  #carrusel{
+
+  #carrusel {
     flex-direction: column;
   }
 }

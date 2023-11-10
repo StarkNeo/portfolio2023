@@ -12,7 +12,7 @@ export const Project = (props) => {
 
             <>
                 <details className="project-details">
-                    <summary>{project.name}</summary>
+                    <summary className="summary-project">{project.name}</summary>
 
                     <figure key={project.id} title="Click here">
 
@@ -41,6 +41,7 @@ export const Project = (props) => {
 
                     </figure>
                 </details>
+                
 
             </>
 

@@ -1,9 +1,16 @@
+export const listTopics=[
+   "Accounting",
+   "Finance",
+   "Taxes",
+   "Technology",
+   "Index"
+]
 export const articles = [
     {
         topic:'Accounting',
         author: 'Jesus hdz',
         date: '10/07/2023',
-        title: 'testing accouting articles',
+        title: 'SOON',
         url:'http://',
         images:'src',
         content:'lorem ipsum'
@@ -12,7 +19,7 @@ export const articles = [
         topic:'Technology',
         author: 'Jesus hdz',
         date: '10/07/2023',
-        title: 'testing technology articles',
+        title: 'SOON',
         url:'http://',
         images:'src',
         content:'lorem ipsum'
@@ -21,11 +28,38 @@ export const articles = [
         topic:'Taxes',
         author: 'Jesus hdz',
         date: '10/07/2023',
-        title: 'testing taxes articles',
+        title: 'SOON',
         url:'http://',
         images:'src',
         content:'lorem ipsum'
-     }
+     },
+     {
+      topic:'Taxes',
+      author: 'Jesus hdz',
+      date: '10/07/2023',
+      title: 'SOON',
+      url:'http://',
+      images:'src',
+      content:'articulo 2'
+   },
+   {
+      topic:'Finance',
+      author: 'Jesus hdz',
+      date: '10/07/2023',
+      title: 'SOON',
+      url:'http://',
+      images:'src',
+      content:'articulo 2'
+   },
+   {
+      topic:'Index',
+      author: 'Jesus hdz',
+      date: '10/07/2023',
+      title: 'SOON',
+      url:'http://',
+      images:'src',
+      content:'articulo 2'
+   }
 
 ]
 

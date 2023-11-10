@@ -2,16 +2,30 @@ import React from "react";
 import { useState, useEffect } from "react";
 import { Article } from "./article";
 import { articles } from "../../services/articlesList";
-
+import './articles.css';
+import { listTopics } from "../../services/articlesList";
 export const Articles = (props) => {
-    const [list, setList]= useState([])
+    const [topics, setTopics]= useState([])
     
     useEffect(()=>{
-        setList(articles)
+        setTopics(listTopics)
     },[])
-    return(
+    if (!topics) return <h2>Loading...</h2>
+    return   (
+        <aside className="aside-topics">
+            
+        {topics.map(e => (
+                <details className="topic">
+                    <summary>{e}</summary>
+                    <Article topic={e} data={articles} />
+                </details>
 
-        <Article topic={props.topic} data={list} />
+            
+        ))}
+        </aside>
+        
+    
     )
+       
     
 }

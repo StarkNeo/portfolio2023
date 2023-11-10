@@ -2,7 +2,8 @@ import React from "react"
 
 export const Article = (props) => {
     let filterByTopic= props.data.filter(element=>element.topic === props.topic)
-    return (
+    return( 
+         
         filterByTopic.map(element =>(
         <article key={element.title}>
             <details>
@@ -20,8 +21,9 @@ export const Article = (props) => {
         </article>    )
         )
     )
+    
             
-        }
+ }
          
         
 

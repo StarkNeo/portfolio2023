@@ -1,0 +1,14 @@
+.aside-topics{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    padding:1rem;
+}
+
+.topic:hover {
+    border: 2px solid deepskyblue;
+    color: deepskyblue;
+    background-color: black;
+    padding: 0.2rem;
+    border-radius: 10px;
+}
