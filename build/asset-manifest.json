@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.8efa0b34.css",
-    "main.js": "/static/js/main.a781240d.js",
+    "main.css": "/static/css/main.15fd81b3.css",
+    "main.js": "/static/js/main.8f396b0b.js",
     "static/media/podcast.png": "/static/media/podcast.40b621035f59fa284d4a.png",
     "static/media/superappV2.png": "/static/media/superappV2.04d3edfc4acf4faeb42f.png",
     "static/media/calcassets.png": "/static/media/calcassets.1820c8c1d5a2d88e6bb1.png",
@@ -10,12 +10,14 @@
     "static/media/pythonClass.png": "/static/media/pythonClass.69e45cfe1be9430e189b.png",
     "static/media/POWERBI.jpg": "/static/media/POWERBI.f80d0fbb1216884ef382.jpg",
     "static/media/costopat2.png": "/static/media/costopat2.b920fec9103b8e24cfe9.png",
+    "static/media/certrender.png": "/static/media/certrender.b17140651bc5d3824e75.png",
     "static/media/asimilados.png": "/static/media/asimilados.e0e44bf8b8da5520af8e.png",
     "static/media/superapp2023.png": "/static/media/superapp2023.3619625b54352e85b659.png",
     "static/media/superapp.png": "/static/media/superapp.d711bf27631ebe4788ee.png",
     "static/media/sql.png": "/static/media/sql.86cdb54cc5fc9c392ebd.png",
     "static/media/mongo.png": "/static/media/mongo.e3d303c414914d83effb.png",
     "static/media/powerquery.jpg": "/static/media/powerquery.cb954adec6b33d87282d.jpg",
+    "static/media/certrobotica.png": "/static/media/certrobotica.b64618279c3d8469be2f.png",
     "static/media/REACT.png": "/static/media/REACT.83557f28d5b3591a6e55.png",
     "static/media/node.svg": "/static/media/node.311ad3ad87e60c330e28496c52189e7c.svg",
     "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
@@ -30,11 +32,11 @@
     "static/media/envelope-solid.svg": "/static/media/envelope-solid.80b4b2e0eb51c3b5e83f5dc6392f5c82.svg",
     "static/media/css.svg": "/static/media/css.8d2037a4115ce1e9a8d8d36a6ead71ec.svg",
     "static/media/html5.svg": "/static/media/html5.c1e5a74f422a1c4ed5c3d11d62357001.svg",
-    "main.8efa0b34.css.map": "/static/css/main.8efa0b34.css.map",
-    "main.a781240d.js.map": "/static/js/main.a781240d.js.map"
+    "main.15fd81b3.css.map": "/static/css/main.15fd81b3.css.map",
+    "main.8f396b0b.js.map": "/static/js/main.8f396b0b.js.map"
   },
   "entrypoints": [
-    "static/css/main.8efa0b34.css",
-    "static/js/main.a781240d.js"
+    "static/css/main.15fd81b3.css",
+    "static/js/main.8f396b0b.js"
   ]
 }

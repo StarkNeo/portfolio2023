@@ -1,0 +1,49 @@
+.navigation {
+    background-color: hsl(223, 90%, 4%);
+    border-bottom: 1px solid white;
+    display: flex;
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    
+}
+.nav-links {
+    color: white;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding-left: 0px;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    border-radius: 18px;
+    padding: 6px 24px;
+    font-size: 4rem;
+}
+
+.nav-link-active {
+    border: 2px solid deepskyblue;
+    color: deepskyblue;
+    background-color: black;
+
+}
+
+.link {
+    display: flex;
+}
+
+@media only screen and (max-width:842px){
+    .link a{
+        font-size: 1.5rem;
+    }
+}
+@media only screen and (max-width:566px){
+    .nav-links{
+        display: flex;
+        flex-direction: column;
+    }
+}

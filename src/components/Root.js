@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink, Outlet } from "react-router-dom";
-import Navigation from "./Navigation";
+import Navigation from "./Navigation/Navigation";
 function Root() {
   
   return (

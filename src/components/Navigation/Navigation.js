@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { NavLink} from "react-router-dom";
-import { ROUTES } from "../services/ROUTES";
-
+import { ROUTES } from "../../services/ROUTES";
+import './navigation.css';
 
 function Navigation() {
     const [sectionTypes, setSectionTypes] = useState([]);

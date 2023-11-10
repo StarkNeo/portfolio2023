@@ -24,42 +24,10 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-.link {
-    display: flex;
-}
 
-.navigation {
-    background-color: hsl(223, 90%, 4%);
-   
-}
 
-.nav-links {
-    color: white;
-    list-style: none;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: auto;
-    margin: auto;
-    height: auto;
 
-}
-
-.nav-link {
-    color: white;
-    text-decoration: none;
-    border-radius: 18px;
-    padding: 6px 24px;
-    font-size: 4rem;
-}
-
-.nav-link-active {
-    border: 2px solid deepskyblue;
-    color: deepskyblue;
-    background-color: black;
-
-}
-
+/*
 @media only screen and (max-width:959px) {
     .nav-link-active,
     .nav-link {
@@ -118,4 +86,4 @@ body {
     }
 
 
-}
+}*/

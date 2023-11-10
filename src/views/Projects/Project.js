@@ -14,34 +14,29 @@ export const Project = (props) => {
                 <details className="project-details">
                     <summary className="summary-project">{project.name}</summary>
 
-                    <figure key={project.id} title="Click here">
 
-                        <figcaption>
-                            <p>
+                    <p key={project.id} title="click here">
 
-                                <strong> {project.name}</strong><br />
-                                <strong> {project.skill_name}</strong><br /><br />
-                                <span>{project.description}</span><br></br><br></br>
-                                <span>{project.purpose}</span><br></br> <br></br>
-                                <span>{project.year}</span>
+                        <strong> {project.name}</strong><br />
+                        <strong> {project.skill_name}</strong><br /><br />
+                        <span>{project.description}</span><br></br><br></br>
+                        <span>{project.purpose}</span><br></br> <br></br>
+                        <span>{project.year}</span>
+
+                        <Link
+                            key={project.id}
+                            to={project.url}
+                            className="link-style"
+
+                        >
+                            {project.url}
+
+                        </Link>
+                    </p>
 
 
-                            </p>
-                            <Link
-                                key={project.id}
-                                to={project.url}
-                                className="link-style"
-
-                            >
-                                {project.url}
-
-                            </Link>
-
-                        </figcaption>
-
-                    </figure>
                 </details>
-                
+
 
             </>
 

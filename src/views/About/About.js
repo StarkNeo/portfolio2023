@@ -14,7 +14,7 @@ export const About = () => {
             <div id="body-about">
                 <section id="div-left">
                     <details>
-                        <summary className="summary-head">Work Expedient</summary>
+                        <summary className="summary-head">Employment History</summary>
                         <ul>
                             {companiesList.map(company => (
                                 <details key={company.id}>
@@ -55,7 +55,7 @@ export const About = () => {
 
                 <section id="div-right">
                     <details>
-                        <summary className="summary-head">Education Expedient</summary>
+                        <summary className="summary-head">Education</summary>
                         <details>
                         <summary className="summary-subcat">Degrees</summary>
                         {degrees.map(title => (
